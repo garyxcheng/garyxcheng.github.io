@@ -1,12 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
 <html>
   <head>
     <!this stuff is displayed on the tab>
     <title>Gary Cheng</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body>
-    <h1>Gary Cheng's 1337 website</h1>
-    <p>2kewl4skewl. Steph Curry is the <a href="https://en.wikipedia.org/wiki/Stephen_Curry">man</a></p>
+    <h1><b>Gary Cheng's 1337 website</b></h1>
+    <hr>
+    <p title="2kewl4skewl"> <a href="https://en.wikipedia.org/wiki/Stephen_Curry">Steph Curry is the man</a> <br>You are the man.</p>
     
     <img src="http://www.manteresting.com/sites/default/files/styles/pin_teaser/public/field/image/nail/2015/Jun/24/gzydmtq.gif?itok=Jri0CrZ4"></img>
   </body>
