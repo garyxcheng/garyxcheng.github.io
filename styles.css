@@ -39,6 +39,9 @@ button.menu-button{
 button.menu-button:hover{
   background-color: #33FF8F;
   color: black;
+  font-size: 150%;
+  width: 15%;
+  
 }
 
 
