@@ -1,12 +1,49 @@
 body {
-    background-color: #737F78;
+    background-color: black;
+    margin: 0;
 }
 p {
   color: #82FFB7;
-
+  text-align: center;
 }
 h1 {
   text-align: center;
   color: #33FF8F;
-  font-family: Helvetica, sans-serif;
+  font-family: "century gothic", sans-serif;
 }
+
+
+#menu-bar{
+  background-color: grey;
+  color:#0000FF;
+  position: absolute;
+  width: 60%;
+  height: 5%;
+  text-align:center;
+  left:20%;
+}
+
+button.menu-button{
+  font-family: "century gothic", sans-serif;
+  padding:0;
+  border:0;
+  background-color: grey;
+  color: #33FF8F;
+  width:10%;
+  height:100%;
+  text-align:center;
+  vertical-align:middle;
+  margin:0;
+  float:center;
+}
+button.menu-button:hover{
+  background-color: #33FF8F;
+  color: black;
+}
+
+
+
+
+
+
+
