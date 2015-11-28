@@ -37,6 +37,7 @@ button.menu-button{
   vertical-align:middle;
   margin:0;
   float:center;
+  transition: all 0.3s ease 0s;
 }
 button.menu-button:hover{
   background-color: #33FF8F;
