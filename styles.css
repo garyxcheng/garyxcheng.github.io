@@ -21,10 +21,10 @@ h3{
   font-size: 225%;
   margin:0;  
 }
-#email{
-  color:white;
+#xkcdcredit{
+  text-align:right;
+  font-size: 10%;
 }
-
 a{
   color:white;
 }
@@ -33,6 +33,7 @@ a{
  width:50%;
  left:25%;
  position: absolute;
+ text-align:center;
 }
 
 .body-image{
