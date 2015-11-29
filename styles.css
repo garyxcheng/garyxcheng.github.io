@@ -11,6 +11,7 @@ h1 {
   color: #33FF8F;
   font-family: "century gothic", sans-serif;
   font-size: 250%;
+ 
 }
 
 
@@ -55,8 +56,8 @@ span.blinking-cursor {
   margin: 0;
   padding: 0;
   border: 0;
-  font-weight: 3000;
-  font-size: 100%;
+  font-weight: 100;
+  font-size: 120%;
   font-style
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
