@@ -6,7 +6,7 @@ body {
 p {
   margin:5px;
   color: #BDBDBD;
-  font-family: "Lucida Grande", san-serif;
+  font-family: "Lucida Grande", sans-serif;
 }
 h1 {
   text-align: center;
@@ -17,7 +17,7 @@ h1 {
 }
 h3{
   color: white;
-  font-family: "Lucida Grande", san-serif;
+  font-family: "Lucida Grande", sans-serif;
   font-size: 225%;
   margin:0;  
 }
