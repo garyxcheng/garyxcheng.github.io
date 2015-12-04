@@ -6,18 +6,17 @@ body {
 p {
   margin:5px;
   color: #BDBDBD;
-  font-family: "Lucida Grande",Arial, sans-serif;
+  font-family: Lato,Arial, sans-serif;
 }
 h1 {
   text-align: center;
   color: #33FF8F;
-  font-family:"Andale Mono", Arial,monospace;
-  font-size: 400%;
- 
+  font-family:"PT Mono", Arial,monospace;
+  font-size: 500%;
 }
 h3{
   color: white;
-  font-family: "Lucida Grande", Arial,sans-serif;
+  font-family: Lato, Arial,sans-serif;
   font-size: 225%;
   margin:0;  
 }
@@ -51,7 +50,7 @@ a{
 }
 
 .active{
-  font-family: "Andale Mono", monospace;
+  font-family: "PT Mono", monospace;
   font-size: 120%;
   padding:5px;
   border:0;
@@ -68,7 +67,7 @@ a{
 
 
 .menu-button{
-  font-family: "Andale Mono", monospace;
+  font-family: "PT Mono", monospace;
   font-size: 120%;
   padding:5px;
   border:0;
@@ -101,7 +100,7 @@ a{
   padding: 0;
   border: 0;
   font-weight: 100;
-  font-size: 120%;
+  font-size: 100%;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
