@@ -63,6 +63,11 @@ a{
   color: black;
 }
 
+.rev {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 
 .menu-button{
   font-family: "PT Mono", monospace;
