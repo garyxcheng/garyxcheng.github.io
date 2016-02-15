@@ -7,19 +7,19 @@ p {
   margin:5px;
   color: #BDBDBD;
   font-family: Lato,Arial, sans-serif;
-  text-align: center;
 }
 h1 {
   text-align: center;
   color: #33FF8F;
-  font-family:"PT Mono", Arial,monospace;
-  font-size: 500%;
+  font-family:"Anonymous Pro", Arial,monospace;
+  font-size: 400%;
+ 
 }
 h3{
   color: white;
   font-family: Lato, Arial,sans-serif;
   font-size: 225%;
-  margin:0;
+  margin:0;  
 }
 #xkcdcredit{
   text-align:right;
@@ -28,10 +28,10 @@ h3{
 a{
   color:white;
 }
-.mainb{
+#mainb{
  width:50%;
  left:25%;
- position: relative;
+ position: absolute;
  text-align:center;
 }
 
@@ -51,36 +51,35 @@ a{
 }
 
 .active{
-  font-family: "PT Mono", monospace;
+  font-family: "Anonymous Pro", monospace;
   font-size: 120%;
   padding:5px;
-  width:10%;
   border:0;
+  margin-left:0;
+  margin-right:	0;
+  width:10%;
   text-align:center;
   vertical-align:middle;
-  margin:auto;
+  margin:0;
   transition: all 0.3s ease 0s;
   background-color: #33FF8F;
   color: black;
 }
 
-.rev {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-
 
 .menu-button{
-  font-family: "PT Mono", monospace;
+  font-family: "Anonymous Pro", monospace;
   font-size: 120%;
   padding:5px;
   border:0;
+  margin-left:0;
+  margin-right: 0;
   background-color: #2F4F4F;
   color: #33FF8F;
   width:10%;
   text-align:center;
   vertical-align:middle;
-  margin:auto;
+  margin:0;
   transition: all 0.3s ease 0s;
 }
 
@@ -89,7 +88,7 @@ a{
   color: black;
   font-size: 150%;
   padding: 7px;
-  width: 15%;
+  width: 15%;  
 }
 
 .menu-button:active{
@@ -102,7 +101,7 @@ a{
   padding: 0;
   border: 0;
   font-weight: 100;
-  font-size: 100%;
+  font-size: 120%;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
@@ -155,3 +154,6 @@ a{
     color: white;
   }
 }
+
+
+

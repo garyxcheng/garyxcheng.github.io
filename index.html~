@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>  
+    <title>gary_cheng</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|PT Mono">
+  </head>
+
+  <body>
+    <h1>&nbsp gary_cheng<span class="blinking-cursor">&#9615</span></h1>
+    <div id="menu-bar">      
+	<a href="./index.html"><button id="home" class="active">home </button></a> 
+	<button id="resume" class="menu-button"> resume</button> 
+	<a href="https://github.com/garyxcheng" target="_blank"><button id="github" class="menu-button"> github</button></a>
+	<a href="./contact.html"><button id="contact" class="menu-button">contact</button></a>
+    </div>
+    <br><br><br><br>
+    <div id="mainb">
+      <h3>welcome</h3>
+      <p>I am a freshman studying Computer Science at UC Berkeley.</p>
+      <br>
+      <!img class="body-image" src="./longboard-car2.gif"></img>
+    </div>
+  </body>
+</html>
