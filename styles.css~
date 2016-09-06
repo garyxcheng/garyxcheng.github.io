@@ -13,13 +13,13 @@ h1 {
   color: #33FF8F;
   font-family:"Anonymous Pro", Arial,monospace;
   font-size: 400%;
- 
+
 }
 h3{
   color: white;
   font-family: Lato, Arial,sans-serif;
   font-size: 225%;
-  margin:0;  
+  margin:0;
 }
 #xkcdcredit{
   text-align:right;
@@ -88,7 +88,7 @@ a{
   color: black;
   font-size: 150%;
   padding: 7px;
-  width: 15%;  
+  width: 15%;
 }
 
 .menu-button:active{
@@ -154,6 +154,3 @@ a{
     color: white;
   }
 }
-
-
-
