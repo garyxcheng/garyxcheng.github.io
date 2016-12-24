@@ -2,7 +2,7 @@ body, html {
   margin: 0;
   padding:0;
   height:100%;
-  background-image: url('./concrete_seamless.png');
+  background-image: url('./media/concrete_seamless.png');
 }
 
 a{
@@ -61,7 +61,7 @@ h3{
 }
 
 #black-page {
-  /*background-image: url('./pw_maze_black.png');*/
+  /*background-image: url('./media/pw_maze_black.png');*/
   padding-top: 100px;
 }
 #splash-page {
