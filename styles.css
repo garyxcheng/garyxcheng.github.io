@@ -1,5 +1,4 @@
 body, html {
-  background-color: #151515;
   margin: 0;
   padding:0;
   height:100%;
@@ -118,8 +117,8 @@ h3{
   color: #151515;
   background-color: transparent;
   width:100%;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: all 0.3s ease 0s;
 }
 
