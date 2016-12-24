@@ -6,6 +6,7 @@ body, html {
   background-image: url('./concrete_seamless.png');
 }
 
+
 p {
   margin:5px;
   color: #BDBDBD;
@@ -13,10 +14,10 @@ p {
   text-align: center;
 }
 h1 {
-  text-align: center;
-  color: black;
-  font-family:"PT Mono", Arial,monospace;
-  font-size: 500%;
+  align-self: center;
+  color: #33FF8F;
+  font-family:"Lato", Arial,monospace;
+  font-size: 1000%;
 }
 h3{
   color: white;
@@ -26,11 +27,41 @@ h3{
 }
 
 .full-page{
-  display:block;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   height: 100%;
   width: 100%;
   position: relative;
-  padding: 0;
+}
+#new-menu{
+  align-self: center;
+  position: relative;
+  width: 451px;
+  height: 451px;
+  background-color: blue;
+}
+#long-board{
+  position: absolute;
+  align-self: center;
+  width: 451px;
+  height: 451px;
+}
+#overlay-long-board{
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  align-self: center;
+  width: 451px;
+  height: 451px;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+#letter-piece{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
 }
 
 #black-page {
@@ -73,11 +104,11 @@ a{
 
 #menu-bar{
   position: relative;
-  width: 64%;
+  width: 451px;
   text-align:center;
   margin-left: auto;
   margin-right: auto;
-
+  background: blue;
 }
 
 .active{
@@ -107,7 +138,7 @@ a{
   border:0;
   background-color: #2F4F4F;
   color: #33FF8F;
-  width:16%;
+  width:20%;
   text-align:center;
   vertical-align:middle;
   margin:auto;
