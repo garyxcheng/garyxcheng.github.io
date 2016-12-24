@@ -6,10 +6,13 @@ body, html {
   background-image: url('./concrete_seamless.png');
 }
 
-
+a{
+  color:white;
+  text-decoration: none;
+}
 p {
   margin:5px;
-  color: #BDBDBD;
+  color: #151515;
   font-family: Lato,Arial, sans-serif;
   text-align: center;
 }
@@ -20,27 +23,21 @@ h1 {
   font-size: 1000%;
 }
 h3{
-  color: white;
+  color: #151515;
   font-family: Lato, Arial, sans-serif;
   font-size: 225%;
-  background-color: red;
+
 }
 
 .full-page{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   height: 100%;
   width: 100%;
   position: relative;
 }
-#new-menu{
-  align-self: center;
-  position: relative;
-  width: 451px;
-  height: 451px;
-  background-color: blue;
-}
+
 #long-board{
   position: absolute;
   align-self: center;
@@ -50,7 +47,7 @@ h3{
 #overlay-long-board{
   display: flex;
   justify-content: flex-start;
-  position: absolute;
+  position: relative;
   align-self: center;
   width: 451px;
   height: 451px;
@@ -80,17 +77,17 @@ h3{
 }
 
 
+
 #xkcdcredit{
   text-align:right;
   font-size: 10%;
 }
-a{
-  color:white;
-}
+
+
 .mainb{
  width:50%;
- left:25%;
- position: relative;
+ align-self: center;
+ position: absolute;
  text-align:center;
  display: block;
 }
@@ -103,26 +100,38 @@ a{
 }
 
 #menu-bar{
-  position: relative;
-  width: 451px;
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  background: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 100;
+  margin-top: 2%;
+}
+.menu-button{
+  display: flex;
+  justify-content: center;
+  font-family: "PT Mono", monospace;
+  font-size: 120%;
+  border:0;
+  color: #151515;
+  background-color: transparent;
+  width:100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.3s ease 0s;
 }
 
 .active{
   font-family: "PT Mono", monospace;
   font-size: 120%;
-  padding:5px;
-  width:16%;
-  border:0;
   text-align:center;
   vertical-align:middle;
   margin:auto;
   transition: all 0.3s ease 0s;
-  background-color: #33FF8F;
-  color: black;
+  background-color: #151515;
+  color: #33FF8F;
 }
 
 .rev {
@@ -131,26 +140,11 @@ a{
 }
 
 
-.menu-button{
-  font-family: "PT Mono", monospace;
-  font-size: 120%;
-  padding:5px;
-  border:0;
-  background-color: #2F4F4F;
-  color: #33FF8F;
-  width:20%;
-  text-align:center;
-  vertical-align:middle;
-  margin:auto;
-  transition: all 0.3s ease 0s;
-}
+
 
 .menu-button:hover{
-  background-color: #33FF8F;
-  color: black;
-  font-size: 150%;
-  padding: 7px;
-  width: 24%;
+  background-color: #151515;
+  color: #33FF8F;
 }
 
 .menu-button:active{

@@ -5,13 +5,21 @@
     <title>gary cheng</title>
     <script src="./content.js"></script>
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|PT Mono">
   </head>
 
   <body>
-    <div class="full-page">
+    <div id="menu-bar">
+      <a href="#zero"><button id="home" class="menu-button">welcome</button></a>
+      <a href="#first"><button id="about" class="menu-button">about</button></a>
+      <a href="./Cheng_Resume_Tech.pdf" target="_blank"><button id="resume" class="menu-button">resume</button></a>
+      <a href="https://github.com/garyxcheng" target="_blank"><button id="github" class="menu-button">github</button></a>
+      <a href="#second"><button id="contact" class="menu-button">contact</button></a>
+    </div>
+    <div class="full-page" id="zero">
       <div id="long-board">
         <img src="long_board_square.gif" alt=""/>
       </div>
@@ -29,25 +37,20 @@
           <h1>Y</h1>
         </div>
       </div>
-
     </div>
-       <div id="menu-bar">
-         <a href="#first"><button id="home" class="active">home</button></a>
-         <a href="./Cheng_Resume_Tech.pdf" target="_blank"><button id="resume" class="menu-button">resume</button></a>
-         <a href="https://github.com/garyxcheng" target="_blank"><button id="github" class="menu-button">github</button></a>
-         <a href="#second"><button id="contact" class="menu-button">contact</button></a>
-       </div>
 
 
 
 
-    <div class="full-page" id="black-page">
+
+    <div id="first" class="full-page" >
       <div id="first" class="mainb">
-        <h3>welcome</h3>
-        <p>I am a freshman studying Computer Science at UC Berkeley.</p>
+        <h3>Welcome.</h3>
+        <p>I am studying Computer Science at UC Berkeley. </p>
       </div>
-
-      <div id="second" class="mainb">
+    </div>
+    <div id="second" class="full-page" >
+      <div class="mainb">
         <p id="contact-text">If you would like discuss ideas, hire me, or talk to me, please email me at<br></p>
         <h3 id="email" class="rev">ude.yelekreb@gnehcyrag</h3>
 
