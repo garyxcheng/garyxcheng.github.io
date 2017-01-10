@@ -4,8 +4,9 @@
   <head>
     <title>gary cheng</title>
     <script src="./content.js"></script>
-    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <!script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"</script>
+    <!script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"/script>
+    <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="./media/favicon.ico">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|PT Mono">
@@ -13,11 +14,11 @@
 
   <body>
     <div id="menu-bar">
-      <a href="#zero"><button id="home" class="menu-button">welcome</button></a>
-      <a href="#first"><button id="about" class="menu-button">about</button></a>
+      <a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#zero" ><button id="home" class="menu-button">welcome</button></a>
+      <a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#first"><button id="about" class="menu-button">about</button></a>
       <a href="./media/Cheng_Resume.pdf" target="_blank"><button id="resume" class="menu-button">resume</button></a>
       <a href="https://github.com/garyxcheng" target="_blank"><button id="github" class="menu-button">github</button></a>
-      <a href="#second"><button id="contact" class="menu-button">contact</button></a>
+      <a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#second"><button id="contact" class="menu-button">contact</button></a>
     </div>
     <div class="full-page" >
       <div class="content" id="zero">
@@ -44,7 +45,7 @@
       </div>
 
       <div class="content" id="first">
-        <div id="first" class="mainb">
+        <div class="mainb">
           <h3>Welcome.</h3>
           <p>I am studying Computer Science at UC Berkeley. </p>
         </div>
@@ -63,13 +64,10 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
-
   </body>
+  <footer>
+    <script>
+        smoothScroll.init();
+    </script>
+  </footer>
 </html>
