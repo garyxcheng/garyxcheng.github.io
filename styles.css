@@ -29,6 +29,11 @@ h3{
 }
 
 .full-page{
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -44,6 +49,11 @@ h3{
   height: 451px;
 }
 #overlay-long-board{
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -54,6 +64,11 @@ h3{
   flex-flow: row wrap;
 }
 #letter-piece{
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
   display: flex;
   justify-content: center;
   width: 50%;
@@ -99,6 +114,11 @@ h3{
 }
 
 #menu-bar{
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -109,6 +129,11 @@ h3{
   margin-top: 2%;
 }
 .menu-button{
+  display:-webkit-flex;
+  display:-webkit-box;
+  display:-moz-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
   display: flex;
   justify-content: center;
   font-family: "PT Mono", monospace;
