@@ -27,6 +27,10 @@ h3{
   font-size: 225%;
 
 }
+#zero {
+  position: absolute;
+}
+
 
 .full-page{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -35,10 +39,6 @@ h3{
   display: -webkit-flex;     /* NEW - Chrome */
   display:flex;
 
-
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  justify-content: center;
   -webkit-flex-direction: column;
   flex-direction: column;
   height: 100%;
@@ -46,8 +46,16 @@ h3{
   position: relative;
 }
 
+.content {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #long-board{
-  position: absolute;
+  position: relative;
   -webkit-align-self: center;
   align-self: center;
   width: 451px;
@@ -100,19 +108,16 @@ h3{
   transform: translate(-50%, -50%);
 }
 
-
-
 #xkcdcredit{
   text-align:right;
   font-size: 10%;
 }
 
-
 .mainb{
  width:50%;
  -webkit-align-self: center;
  align-self: center;
- position: absolute;
+ position: relative;
  text-align:center;
  display: block;
 }
