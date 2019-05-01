@@ -8,28 +8,28 @@ body, html {
 a{
   color:black;
   text-decoration: none;
-  font-family: Lato,Arial, sans-serif;
+  font-family: Work Sans,Arial, sans-serif;
 }
 p {
   margin:5px;
   color: #151515;
-  font-family: Lato,Arial, sans-serif;
+  font-family: Work Sans,Arial, sans-serif;
   text-align: justify;
 }
 h1 {
   align-self: center;
   color: #33FF8F;
-  font-family:"Lato", Arial,monospace;
+  font-family:Work Sans, Arial,monospace;
   font-size: 1000%;
 }
 h2 {
   color: #33FF8F;
-  font-family:"Lato", Arial,monospace;
+  font-family:Work Sans, Arial,monospace;
   font-size: 750%;
 }
 h3{
   color: #151515;
-  font-family: Lato, Arial, sans-serif;
+  font-family:Work Sans, Arial, sans-serif;
   font-size: 225%;
 
 }
