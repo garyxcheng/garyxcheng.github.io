@@ -39,7 +39,8 @@ h3{
 
 
 .showlink{
-  color:#2EE681;
+  text-decoration: underline;
+  text-decoration-color: #2EE681;
   font-family: Work Sans,Arial, sans-serif;
 }
 
