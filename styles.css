@@ -6,7 +6,7 @@ body, html {
 }
 
 a{
-  color:black;
+  color:#151515;
   text-decoration: none;
   font-family: Work Sans,Arial, sans-serif;
 }
@@ -35,6 +35,12 @@ h3{
 }
 #zero {
   position: absolute;
+}
+
+
+.showlink{
+  color:#2EE681;
+  font-family: Work Sans,Arial, sans-serif;
 }
 
 
